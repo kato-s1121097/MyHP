@@ -1,0 +1,41 @@
+.top-banner {
+    background-image: url(../image/header.png);
+    background-size: cover;
+    height: 256px;
+    padding: 100px 0;
+}
+
+.header-title {
+    color: #39e5f1;
+    background-color: #000;
+    padding: 16px;
+    width: 50%;
+    margin: 0 auto;
+    opacity: 0.8;
+    text-align: center;
+    transition: all 1.5s;
+}
+
+.header-title:hover {
+    opacity: 1;
+    color: #fd5a5a;
+    transform: scale(1.25);
+}
+
+.hello {
+    text-align: center;
+}
+
+.hello h1 {
+    font-size: 30px;
+    color: #39e5f1;
+    transition: all 1.5s linear;
+    width: 33%;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 64px;
+}
+
+.hello h1:hover {
+    transform: translate( -150px ) rotate( 360deg );
+}

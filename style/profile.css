@@ -1,0 +1,35 @@
+h1 {
+    background-color:darkcyan;
+    text-align: center;
+    padding: 8px 0;
+}
+
+table {
+    border: 1px solid #333333;
+    margin: 0 auto;
+}
+
+th,td {
+    border: 1px solid #333333;
+    padding: 8px 8px;
+}
+
+th {
+    color: #ffffff;
+    background-color: darkblue;
+}
+
+td {
+    color: #ffffff;
+    background-color: #000000;
+    line-height: 1.25em;
+}
+
+.main-contents p {
+    width: 80%;
+    margin: 8px auto;
+    background-color:pink;
+    padding: 8px;
+    line-height: 1.5em;
+    border: 1px solid #000000;
+}
