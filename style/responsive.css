@@ -1,0 +1,93 @@
+/*
+* responsive.css
+* レスポンシブデザインの共通スタイル
+* Update: 2022/04/30(Fri)
+*       ・フィルターモーダルの幅を追加
+*/
+
+@media( max-width: 800px ) {
+    /* common */
+    .container {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        top: 0px;
+        background-color: #000000;
+        z-index: 10;
+    }
+
+    .humberger-wrapper {
+        top: 40px;
+    }
+    
+    .menu h2 {
+        color: #208120;
+        font-size: 18px;
+        float: left;
+        width: 50%;
+        margin: 0 0;
+        padding: 8px;
+    }
+
+    /* index */
+    .header-title {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hello {
+        text-align: left;
+    }
+
+    .hello h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* portfolio */
+
+    .app {
+        width: 100%;
+        margin-top: 64px;
+    }
+
+    .app-profile {
+        height: 320px;
+    }
+
+    .app-description {
+        font-size: 14px;
+    }
+
+    .filter-btn {
+        width: 25%;
+    }
+
+    .filter-modal {
+        width: 100%;
+        height: 80%;
+    }
+
+    .filter {
+        font-size: 22px;
+        height: 20%;
+        line-height:2em;
+        text-align: center;
+    }
+
+    /* profile */
+    td {
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+
+    .main-contents p {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+}

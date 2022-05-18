@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    background-color: #000000;
+    z-index: 10;
+}
+
+.menu h2 {
+    color: #208120;
+    float: left;
+    width: 25%;
+    margin: 0 0;
+    padding: 8px;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+#humberger-btn {
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #333;
+    width: 64px;
+    height: 40px;
+    text-align: center;
+    float: right;
+}
+
+.btn {
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-menu {
+    background-color: rgba(71, 71, 71, 0.7);
+    border: 1px ridge rgba(150, 150, 150, 0.7);
+    font-size: 15px;
+    color: #ffffff;
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    box-shadow: 4px 4px rgba(82, 82, 82, 0.8);
+}
+
+.btn-menu:hover {
+    background-color: rgba(71, 71, 71, 1);
+}
+
+.btn-menu:active {
+    position: relative;
+    top: 4px;
+    left: 4px;
+    box-shadow: none;
+}
+
+.humberger-wrapper {
+    width: 150px;
+    height: 640px;
+    float: right;
+    background-color: rgba( 0, 0, 0, 0.8 );
+    position: fixed;
+    top: 35px;
+    right: 0px;
+    display: none;
+}
+
+.main-contents {
+    padding: 8px;
+    margin-top: 35px;
+    background-color: #d6aba6;
+}
+
+footer {
+    background-color: #bde4e1;
+    border-top: 2px solid #000000;
+    padding: 0 8px 8px 0;
+}
+
+.since {
+    float: right;
+    margin-bottom: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+code {
+    color: #444;
+    background-color: #e7edf3;
+    display: inline-block;
+    padding: 4px;
+}
