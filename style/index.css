@@ -3,6 +3,9 @@
 }
 
 .info code {
+    padding: 8px;
+    font-size: large;
+    font-weight: bold;
     width: 100%;
     text-align: center;
 }
